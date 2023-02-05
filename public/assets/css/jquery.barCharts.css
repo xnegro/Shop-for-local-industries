@@ -1,0 +1,41 @@
+﻿.barChart {
+}
+
+.barChart__row {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+    .barChart__row:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+.barChart__label {
+    float: left;
+    padding-right: 10px;
+    width: 50px;
+}
+
+.barChart__value {
+    float: right;
+    padding-left: 10px;
+    width: 30px;
+}
+
+.barChart__bar {
+    display: block;
+    overflow: hidden;
+    background: grey;
+    height: 18px;
+}
+
+.barChart__barFill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: red;
+}
