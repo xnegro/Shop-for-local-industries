@@ -25,6 +25,9 @@ This code will redirect all requests to the public directory, effectively removi
 
 
 
+## Don't forget create .env file after clone project
+
+
 ## License
 
 All Project Created By <a href="https://www.facebook.com/7odan.0">Mahmoud Elnagar</a>
